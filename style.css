@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* dark color : #273549;
+green color: #10B981; */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+span{
+    color:  #10B981;
+    display: block;
+}
+
+h1,p{
+    color: #fff;
+    margin: 0;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+p{
+   margin: 10px 0; 
+   margin-bottom: 50px;
+   opacity: .7
+}
+
+.btn-green{
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #10B981;
+    border-radius: 6px;
+}
+
+.line{
+opacity: .3
+}
+
+.password-btn{
+    display: flex;
+    margin: 40px 0; 
+    color: #fff;
+    
+}
+
+.password-generated{
+    border: 2px solid #10B981;
+    padding: 15px 2px 2px;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;  
+    color: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);  
+    text-align: center;
+    margin-right:20px;
+
+}
+
+
+.container{
+  padding: 20px 300px;
+  margin: 40px auto; 
+}
+
+h6{
+    color: #fff;
+    opacity: .4;
+}
+
+
+
+@media screen and (max-width: 480px){
+    body{
+        background-color:#1F2937;
+
+    }
+    h1{
+        font-size: 35px;
+    }
+    .container{
+        padding: 20px 20px;
+        margin: 20px auto; 
+      }
+}
+
